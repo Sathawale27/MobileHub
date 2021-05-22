@@ -1,10 +1,17 @@
 # MobileHub
-MobileHub is a work-in-progress GitHub Client Android application, that connects to [GitHub GraphQL APIs](https://docs.github.com/en/graphql)
+MobileHub is a work-in-progress GitHub Client Android application, that connects to [GitHub GraphQL APIs](https://docs.github.com/en/graphql).
 This is not an official GitHub Client.
 
 ## Languages/Frameworks Used:
 - [Kotlin](https://kotlinlang.org/) 
 - [Jetpack Compose](https://developer.android.com/jetpack/compose)
+
+## Development Setup:
+First of all, you will need the latest [Android Studio Arctic Fox](https://developer.android.com/studio/preview) release to be able to 
+build the app. This is because the project is written in [Jetpack Compose](https://developer.android.com/jetpack/compose)
+
+### Code Style:
+This project uses [ktlint](https://github.com/pinterest/ktlint), provided via the [Spotless](https://github.com/diffplug/spotless) gradle plugin.
 
 ## License
 
